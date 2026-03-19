@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Tuesday, March 3, 2026 5:11:25 PM</msg><msg code="0" type="0">DEBUG: 'FinalInundatedPolygon'</msg><msg code="0" type="0">DEBUG pair: 'FinalInundatedPolygon'</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "Z:\GEOG-3135\Final_Proj\SLR_Script.py", line 112, in &lt;module&gt;
+    for ht, ref in zip(height, year):
+                       ^^^^^^
+﻿NameError: name 'height' is not defined
+﻿</msg><msg code="0" type="0">Failed script Project_SLR_Script...</msg><msg code="-2147467259" type="100">Failed to execute (ProjectSLRScript).</msg><msg code="0" type="3">Failed at Tuesday, March 3, 2026 5:11:25 PM (Elapsed Time: 0.16 seconds)</msg></messages>

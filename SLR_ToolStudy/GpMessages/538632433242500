@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Tuesday, March 3, 2026 5:38:27 PM</msg><msg code="0" type="0">Analysis starting for the Year: 2050 where SLH is expected to be 522.0 for SSP Scenario ssp585</msg><msg code="0" type="0">Calculating the Pixel was done and saved in Folder: InundatedRaster</msg><msg code="0" type="0">Reclassifying the vulnerable Pixels was done and saved in Folder: InundatedRaster</msg><msg code="0" type="0">Converting the vulnerable pixels to polygon was done and saved into  Folder: InundatedPolygon</msg><msg code="0" type="0">Completed with Area Calculation</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "Z:\GEOG-3135\Final_Proj\SLR_Script.py", line 152, in &lt;module&gt;
+    lulc_masked = arcpy.sa.ExtractByMask(
+        in_raster=input_lulc,
+        in_mask_data=rf"{InundatedPolygon}\Final_Inundation_{int(ht)}_{ref}_{scenario}.shp"
+    )
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\sa\Functions.py", line 7087, in ExtractByMask
+    return Wrapper(in_raster, in_mask_data, extraction_area, analysis_extent)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\sa\Utils.py", line 44, in swapper
+    result = wrapper(*args, **kwargs)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\sa\Functions.py", line 7084, in Wrapper
+    result = arcpy.gp.ExtractByMask_sa(in_raster, in_mask_data, out_raster, extraction_area, analysis_extent)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 533, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000865: Input raster or feature mask data: InundatedPolygon\Final_Inundation_522_2050_ssp585.shp does not exist.
+Failed to execute (ExtractByMask).
+
+﻿</msg><msg code="0" type="0">Failed script Project_SLR_Script...</msg><msg code="-2147467259" type="100">Failed to execute (ProjectSLRScript).</msg><msg code="0" type="3">Failed at Tuesday, March 3, 2026 5:39:12 PM (Elapsed Time: 44.50 seconds)</msg></messages>

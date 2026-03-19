@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Tuesday, March 3, 2026 5:12:53 PM</msg><msg code="0" type="0">DEBUG: '2150 5526;2100 2277;2050 522'</msg><msg code="0" type="0">DEBUG - pair: 'FinalInundatedPolygon'</msg><msg code="0" type="0">DEBUG - values: ['FinalInundatedPolygon']</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "Z:\GEOG-3135\Final_Proj\SLR_Script.py", line 61, in &lt;module&gt;
+    height = float(values[0])  # First value
+﻿ValueError: could not convert string to float: 'FinalInundatedPolygon'
+﻿</msg><msg code="0" type="0">Failed script Project_SLR_Script...</msg><msg code="-2147467259" type="100">Failed to execute (ProjectSLRScript).</msg><msg code="0" type="3">Failed at Tuesday, March 3, 2026 5:12:53 PM (Elapsed Time: 0.17 seconds)</msg></messages>
